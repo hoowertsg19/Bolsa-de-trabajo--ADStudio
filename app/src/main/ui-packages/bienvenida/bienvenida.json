@@ -1,0 +1,504 @@
+{
+  "name": "bienvenida",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "EoU8lGLHrDOJxaFaII4LI4",
+    "node": "317:673",
+    "version": "6169937421",
+    "component-id": "1e1bfee86d3c1313f5c502d3c6f37a8575d92946"
+  },
+  "default": "Bienvenida",
+  "documentation": "pantalla de inicio",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "UAM-3 1"
+      },
+      {
+        "type": "image",
+        "id": "BOLSA-removebg-preview 1"
+      },
+      {
+        "type": "group",
+        "id": "BTON LOGIN"
+      },
+      {
+        "type": "text",
+        "id": "BOLSA DE TRABAJO UAM"
+      },
+      {
+        "type": "group",
+        "id": "angles-down-solid 1"
+      },
+      {
+        "type": "text",
+        "id": "sOBRE NOSOTROS"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "text",
+        "id": "Ingresar"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Bienvenida": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": "$Bienvenida padding",
+            "border-radius": "$Bienvenida border radius",
+            "tap-handler": "$on Bienvenida tapped",
+            "is-structured": false,
+            "children": [
+              "UAM-3 1",
+              "BOLSA-removebg-preview 1",
+              "BTON LOGIN",
+              "BOLSA DE TRABAJO UAM",
+              "angles-down-solid 1",
+              "sOBRE NOSOTROS"
+            ],
+            "background-color": "$Bienvenida background color"
+          },
+          {
+            "id": "UAM-3 1",
+            "border-radius": 48.27014923095703,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 686.6539916992188
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 1765.3079833984375
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 992.9860229492188
+              }
+            },
+            "stroke-width": 1.379146933555603,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.0
+            },
+            "image-content": "uam_3_1.png",
+            "scale": "cover",
+            "fills": [
+              {
+                "color": {},
+                "opacity": 1.0,
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              },
+              {
+                "color": {},
+                "opacity": 0.800000011920929,
+                "fill-type": "lineargradient",
+                "blend-mode": "normal",
+                "color-stops": [
+                  {
+                    "color": {
+                      "alpha": 0.4980392156862745,
+                      "hue": 185.35714285714286,
+                      "saturation": 1.0,
+                      "value": 0.6588235294117647
+                    },
+                    "color-stop-position": 0.19
+                  },
+                  {
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 0.0,
+                      "saturation": 0.0,
+                      "value": 0.0
+                    },
+                    "color-stop-position": 0.65
+                  }
+                ],
+                "gradient-handle-positions": [
+                  {
+                    "x": 0.5,
+                    "y": -0.02
+                  },
+                  {
+                    "x": 0.5,
+                    "y": 1.0
+                  },
+                  {
+                    "x": -0.01,
+                    "y": -0.02
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "BOLSA-removebg-preview 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 97.4215087890625
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -115.30010986328125
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 586.843017578125
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 282.4525146484375
+              }
+            },
+            "image-content": "bolsa_removebg_preview_1.png",
+            "scale": "fill"
+          },
+          {
+            "id": "BTON LOGIN",
+            "border-radius": 4.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.13756561279296875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 501.9736328125
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 197.21800231933594
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.5118522644043
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Rectangle 3",
+              "Ingresar"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "BOLSA DE TRABAJO UAM",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.4361572265625
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 121.9736328125
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 395.815185546875
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 159.98106384277344
+              }
+            },
+            "font-weight": 583.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "annotated-text-content": {
+              "text": "BOLSA DE TRABAJO UAM",
+              "annotated-text-span-list": [
+                {
+                  "span-start": 0,
+                  "span-length": 17,
+                  "annotated-text-style": {
+                    "font-weight": 600.0,
+                    "typeface": "Montserrat"
+                  }
+                },
+                {
+                  "span-start": 17,
+                  "span-length": 3,
+                  "annotated-text-style": {
+                    "font-weight": 600.0,
+                    "typeface": "Montserrat",
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 0.0,
+                      "saturation": 0.0,
+                      "value": 1.0
+                    }
+                  }
+                }
+              ]
+            },
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 44.1327018737793,
+            "line-height": 1.1562499237060546,
+            "typeface": "Montserrat",
+            "case": "upper"
+          },
+          {
+            "id": "angles-down-solid 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.04055213928222656
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 586.9736328125
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 21.023975372314453
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 25.594398498535156
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "sOBRE NOSOTROS",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -0.471435546875
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 651.9736328125
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 120.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 15.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "sOBRE NOSOTROS",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.219000021616618,
+            "typeface": "Montserrat",
+            "case": "upper"
+          },
+          {
+            "id": "Rectangle 3",
+            "border-radius": 4.0,
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 5.516587734222412,
+              "offset-x": 0.0,
+              "offset-y": 5.516587734222412,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -5.5166015625
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 197.21800231933594
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.5118522644043
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "Ingresar",
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.4980392156862745,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 5.516587734222412,
+              "offset-x": 0.0,
+              "offset-y": 5.516587734222412,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 2.4480323791503906
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -9.65424919128418
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 79.99053192138672
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 26.203794479370117
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Ingresar",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 16.549762725830078,
+            "line-height": 1.218999954130777,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "top": 3.19580078125,
+              "bottom": 1.60064697265625
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -0.49819278717041016
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 18.027589797973633
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Bienvenida background color": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    },
+    "Bienvenida padding": {
+      "data-type": "edge-data",
+      "required": false,
+      "description": ""
+    },
+    "Bienvenida border radius": {
+      "data-type": "double",
+      "required": false,
+      "description": ""
+    },
+    "on Bienvenida tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Bienvenida",
+      "size": {
+        "width": 392.0,
+        "height": 873.0
+      },
+      "parameters": {
+        "Bienvenida background color": {
+          "alpha": 1.0,
+          "hue": 0.0,
+          "saturation": 0.0,
+          "value": 1.0
+        }
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
