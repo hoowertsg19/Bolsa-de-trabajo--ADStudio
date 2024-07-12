@@ -232,12 +232,12 @@ fun JobDetailScreen(navController: NavHostController) {
                             .padding(horizontal = 16.dp, vertical = 16.dp)
                     ) {
                         Button(
-                            onClick = { /*TODO: Add click action*/ },
+                            onClick = { navController.navigate("UploadCvScreen") },
                             shape = RoundedCornerShape(8.dp),
-                            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray),
+                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF0099A8)),
                             modifier = Modifier.align(Alignment.Center)
                         ) {
-                            Text("MENOS DETALLES", color = Color.Black, fontFamily = montserrat)
+                            Text("APLICAR A VACANTE", color = Color.White, fontFamily = montserrat)
                         }
                     }
                 }
